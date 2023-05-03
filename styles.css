@@ -48,16 +48,16 @@ h1 {
 
 .square {
     display: inline-block;
-    width: 80px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     background-color: yellow;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     border-radius: 8px;
 }
 .line {
     display: inline-block;
     vertical-align: top;
-    margin-right: 20px;
+    margin-right: 0px;
 }
 .btn {
     display: block;
@@ -92,6 +92,7 @@ h1 {
     padding-top: 50px;
 }
 .line-column {
+    width: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,3 +100,24 @@ h1 {
     margin-bottom: 25px;
 }
 
+@media only screen and (max-width: 768px) and (orientation: landscape) {
+    .line-container {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    .line-column {
+      width: auto;
+      margin: 10px;
+    }
+    
+    .square {
+      width: 30px;
+      height: 30px;
+      margin: 3px;
+    }
+    
+    span {
+      display: inline-block;
+    }
+}
