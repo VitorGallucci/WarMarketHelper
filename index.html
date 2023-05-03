@@ -11,6 +11,10 @@
 <body>
 	<div class="logo"><img id="logo" src="https://cdn.discordapp.com/attachments/859225868308316203/1087547696514084904/e69819.png"></div>
     <div class="line-container">
+		<div class="line-column" id="btnContainer">
+			<button id="incrementFood" class="btn food">Buy</button>
+			<button id="decrementFood" class="btn2 food">Sell</button>
+		</div>
 		<div class="line-column" id="container1">
 			<h2>Food</h2>
 			<div id="1" class="square food 1"></div>
@@ -31,8 +35,10 @@
 			<div id="14" class="square food 14"></div>
 			<div id="15" class="square food 15"></div>
 			<span style="display: inline-block; border-bottom: 2px solid black; width: 100px; text-align: center;">3</span>
-			<button id="incrementFood" class="btn food">Buy</button>
-			<button id="decrementFood" class="btn2 food">Sell</button>
+		</div>
+		<div class="line-column" id="btnContainer">
+			<button id="incrementWood" class="btn">Buy</button>
+			<button id="decrementWood" class="btn2">Sell</button>
 		</div>
 		<div class="line-column" id="container2">
 			<h2>Wood</h2>
@@ -54,8 +60,10 @@
 			<div class="square wood 14"></div>
 			<div class="square wood 15"></div>
 			<span style="display: inline-block; border-bottom: 2px solid black; width: 100px; text-align: center;">3</span>		
-			<button id="incrementWood" class="btn">Buy</button>
-			<button id="decrementWood" class="btn2">Sell</button>
+		</div>
+		<div class="line-column" id="btnContainer">
+			<button id="incrementMineral" class="btn">Buy</button>
+			<button id="decrementMineral" class="btn2">Sell</button>
 		</div>
 		<div class="line-column" id="container3">
 			<h2>Mineral</h2>
@@ -77,8 +85,6 @@
 			<div class="square mineral 14"></div>	
             <div class="square mineral 15"></div>
 			<span style="display: inline-block; border-bottom: 2px solid black; width: 100px; text-align: center;">3</span>
-			<button id="incrementMineral" class="btn">Buy</button>
-			<button id="decrementMineral" class="btn2">Sell</button>
 		</div>
 	</div>
 	<script src="market2.js"></script>
