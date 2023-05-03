@@ -119,9 +119,9 @@ h1 {
     
     .line-column {
       width: auto;
-      margin: 30px;
+      margin: 13px;
       border-right: black 4px solid;
-      padding-right: 40px;
+      padding-right: 15px;
     }
     
     h2 {
